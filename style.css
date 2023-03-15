@@ -179,6 +179,8 @@ h3 {
   color: black;
 }
 
+
+
 @media all and (max-width: 800px) {
     h1 {
         font-size: 40px;
@@ -189,9 +191,16 @@ h3 {
     .days, .hours, .minutes, .seconds {
         font-size: 35px;
     }
+    .time { 
+        height: 100px;
+        width: 100px;
+    }
+    h3 {
+        font-size: 14 px;
+    }
 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 600px) {
     .dates {
         flex-direction: column;
     }
@@ -200,23 +209,17 @@ h3 {
         justify-content: center;
         margin-top: 15px;
     }
-    .timer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding: 10px;
-    }
+   
     h1 {
         font-size: 30px;
     }
-    .study {
-        height: 150px;
-        width: 150px;
+    .time {
+        height: 100px;
+        width: 100px;
         margin: 10px;
-        box-shadow: 5px 10px 8px #888888;   
     }
     .days, .hours, .minutes, .seconds {
-        font-size: 40px;
+        font-size: 20px;
     }
     .happy {
         font-size: 40px;
@@ -225,45 +228,60 @@ h3 {
         display: flex;
         justify-content: center;
     }
+   
+}
+
+
+@media all and (max-width: 414px) { 
+    .time {
+        height: 80px;
+        width: 80px;
+}
+.words {
+    font-size: 15px;
+}
 }
 
 @media all and (max-width: 360px) {
-    .study {
-        height: 120px;
-        width: 120px;
-    }
     .days, .hours, .minutes, .seconds {
-        font-size: 28px;
+        font-size: 18px;
     }
     #birthdayGirl {
         width: 280px;
     }
-}
-
-@media all and (max-width: 360px) {
-    #birthdayGirl {
-        width: 250px;
-    }
+    
     h1 {
         font-size: 24px;
     }
-    
-.time { 
-    height: 100px;
-    width: 100px;
-}
-h3 {
-    font-size: 15 px;
-}
-#fireworks {
+    .words {
+        font-size: 13px;
+    }
+    .time { 
+    height: 70px;
+    width: 70px;
+    }
+  
+    #fireworks {
     width: 250px;
-}
-.happy {
+    }
+    .happy {
     font-size: 30px;
     margin: 10px;
     padding: 10px;
-}
-.btnStart, .btnRestart {
+    }
+    .btnStart, .btnRestart {
     padding: 10px;
+    }
 }
+
+@media all and (max-width: 280px) {
+     .timer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #birthdayGirl {
+        width: 240px;
+    }
 }
+
