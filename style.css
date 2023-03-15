@@ -1,0 +1,269 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eeeff5;
+}
+
+.dates {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    font-family: 'Comforter', cursive;
+    font-size: larger;
+    box-shadow: 5px 10px 8px #252222; 
+    border: none; 
+}
+
+.btnStart, .btnRestart, .btnReload {
+    background-color: white;
+    margin-left: 10px;
+    padding: 16px;
+    font-family: 'Comforter', cursive;
+    font-size: larger;
+    border: none;
+    box-shadow: 5px 10px 8px #252222;
+    cursor: pointer;  
+}
+
+.btnStart:hover, .btnRestart:hover, .btnReload:hover {
+    background-color: #dcf9fa;
+    transition-duration: 1s;
+}
+
+.divReload {
+    display: flex;
+    justify-content: center;
+}
+
+.btnReload {
+    display: none;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Comforter', cursive;
+    word-wrap: wrap;
+    text-align: center;
+    box-shadow: 5px 10px 8px #252222;  
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+#fireworks {
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.part {
+    display: flex;
+}
+
+.time {
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    box-shadow: 5px 10px 8px #252222;   
+}
+
+.days, .hours, .minutes, .seconds {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comforter', cursive;
+    font-size: 35px;
+    margin: 5px;
+}
+h3 {
+    font-family: 'Comforter', cursive;
+    display: flex;
+    justify-content: center;
+}
+#one {
+    transform: rotate(5deg);
+    background: #FFF9B6;
+}
+
+#two {
+    transform: rotate(-7deg);
+    background: #D8E9A8;
+}
+
+#three {
+    transform: rotate(3deg);
+    background: #B2F9FC;
+}
+
+#four {
+    transform: rotate(-4deg);
+    background: #FFCCD2;
+}
+
+.red {
+    color: #91091E;
+}
+
+.happy {
+    background-color: white;
+    padding: 20px;
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+    border: none;
+    color: #090909;
+}
+.images {
+    box-shadow: 5px 10px 8px #252222; 
+}
+.play {
+    background-color:white;
+    box-shadow: 5px 10px 8px #252222;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;  
+    width: 70px;
+    height: 70px;
+    background-image: url(https://cdn.glitch.me/13bdc340-e8f1-42ee-b355-8d7fcd0d2828%2Fplay.png?v=1638127491031);
+    background-size: contain;
+}
+     
+.pause {
+    background-image: url(https://cdn.glitch.me/13bdc340-e8f1-42ee-b355-8d7fcd0d2828%2Fpause.png?v=1638127482874);
+    width: 70px;
+    height: 70px;
+}      
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.btnMusicTwo {
+    display: none;
+}
+
+.by {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 100vh;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.natalia {
+    font-family: 'Comforter', cursive;
+  text-decoration: none;
+  color: black;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+    .images {
+        width: 350px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .dates {
+        flex-direction: column;
+    }
+    .btn-cont {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .timer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .study {
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+        box-shadow: 5px 10px 8px #888888;   
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 40px;
+    }
+    .happy {
+        font-size: 40px;
+    }
+    .btnMusic {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .study {
+        height: 120px;
+        width: 120px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 28px;
+    }
+    #birthdayGirl {
+        width: 280px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    #birthdayGirl {
+        width: 250px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    
+.time { 
+    height: 100px;
+    width: 100px;
+}
+h3 {
+    font-size: 15 px;
+}
+#fireworks {
+    width: 250px;
+}
+.happy {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.btnStart, .btnRestart {
+    padding: 10px;
+}
+}

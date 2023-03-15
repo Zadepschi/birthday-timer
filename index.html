@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Birthday timer</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,500&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <audio id="myAudioOne" src="instrumentalnaja.mp3" loop="loop"></audio>
+      <audio id="myAudioTwo" src="saksofon.mp3" loop="loop"></audio>
+
+      <div class="dates">
+         <input id="inputDate" type="datetime-local" placeholder="Enter Year..." value="2023-08-25T08:00">
+         <div class="btn-cont">
+            <button class="btnStart">Calculate</button>
+            <button class="btnRestart">Change date</button>
+         </div>
+      </div>
+      
+      <div class="divReload">
+         <button class="btnReload">Refresh</button>
+      </div>
+
+      <div class="heading">
+         <h1>Until the birthday left</h1>
+      </div>
+      <div class="photo">
+         <img class="images" id="birthdayGirl" src="girl.jpg" alt="Birthday girl" width="300px">
+         <img class="images" id="fireworks" src="bday.gif" alt="Happy birthday" width="300px">
+      </div>
+      <br>
+      <div class="container">
+         <div class="timer">
+            <div class="part">
+               <div id="one" class="time">
+                  <h4 class="days">0</h4>
+                  <h3>DAYS</h3>
+               </div>
+               <div id="two"class="time">
+                  <h4 class="hours">0</h4>
+                  <h3>HOURS</h3>
+               </div>
+            </div>
+            <div class="part">
+               <div id="three" class="time">
+                  <h4 class="minutes">0</h4>
+                  <h3>MINUTES</h3>
+               </div>
+               <div id="four" class="time">
+                  <h4 class="seconds">0</h4>
+                  <h3>SECONDS</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <br>
+      <div class="btn">
+         <button id="btnMusicOne" class="play"></button>
+         <button id="btnMusicTwo" class="play"></button>
+      </div>
+      <div class="by"><a class="natalia" href="" target="_blank">by Zadepschi</a></div> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
