@@ -12,7 +12,7 @@ body {
 
 input {
     padding: 10px;
-    font-family: 'Comforter', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: larger;
     box-shadow: 5px 10px 8px #252222; 
     border: none; 
@@ -22,7 +22,7 @@ input {
     background-color: white;
     margin-left: 10px;
     padding: 16px;
-    font-family: 'Comforter', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: larger;
     border: none;
     box-shadow: 5px 10px 8px #252222;
@@ -52,7 +52,7 @@ h1 {
     font-size: 40px;
     background-color: white;
     padding: 10px;
-    font-family: 'Comforter', cursive;
+    font-family: 'Roboto', sans-serif;
     word-wrap: wrap;
     text-align: center;
     box-shadow: 5px 10px 8px #252222;  
@@ -92,12 +92,12 @@ h1 {
 .days, .hours, .minutes, .seconds {
     display: flex;
     justify-content: center;
-    font-family: 'Comforter', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 35px;
     margin: 5px;
 }
 h3 {
-    font-family: 'Comforter', cursive;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
 }
@@ -128,7 +128,7 @@ h3 {
 .happy {
     background-color: white;
     padding: 20px;
-    font-family: 'Comforter', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     border: none;
     color: #090909;
@@ -174,7 +174,7 @@ h3 {
 }
 
 .natalia {
-    font-family: 'Comforter', cursive;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   color: black;
 }
