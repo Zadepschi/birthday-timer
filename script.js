@@ -86,6 +86,7 @@ function photos () {
 
 function backgroundChange() {
     document.body.style.backgroundImage = "URL(background1.jpg)";
+    document.body.classList.add("mishura");
 } 
 
 const audioOne = document.querySelector("#myAudioOne");

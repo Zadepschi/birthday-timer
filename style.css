@@ -180,7 +180,9 @@ h3 {
   color: black;
 }
 
-
+.mishura {
+    height: 100vh;
+}
 
 @media all and (max-width: 800px) {
     h1 {
